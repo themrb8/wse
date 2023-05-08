@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Li Niladri Rongtuli Unicode';
+    src: url('LiNiladriRongtuliUnicode.woff2') format('woff2'),
+        url('LiNiladriRongtuliUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+button {
+    font-family: 'Li Niladri Rongtuli Unicode';
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@600;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px 45px;
+}
+form > div {
+    margin-bottom: 10px;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+padding: 5px 15px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+button {
+    padding: 10px 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    border: 2px solid black;
+    box-shadow: -3px 3px 3px 1px gray;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover {
+    border: 2px solid black;
+    background: none;
+    color: black;
+    border-radius: 5px;
+}
+.bangla-font {
+    font-size: 32px;
+}
+.outlined {
+    background: transparent;
+    color: black;
+}
+.outlined:hover {
+    background: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightslategray;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+.navigation ul li a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+section {
+    width: 768px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+section h1 {
+    font-size: 36px;
+}
+section p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.slice {
+    display: flex;
+    gap: 60px;
+}

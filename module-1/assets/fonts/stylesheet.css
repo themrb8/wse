@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Li Halder Sourik Unicode';
+    src: url('LiHalderSourikUnicode.woff2') format('woff2'),
+        url('LiHalderSourikUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Niladri Rongtuli Unicode';
+    src: url('LiNiladriRongtuliUnicode.woff2') format('woff2'),
+        url('LiNiladriRongtuliUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
