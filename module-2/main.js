@@ -3,7 +3,7 @@ var Mohammad = "roman"
 var mrb = 88945894.332
 var isCompleted = true
 
-
+//switch statement
 var day  = 'thuresday'
 switch (day) {
     case 'saturday':
@@ -37,4 +37,22 @@ switch (day) {
     default:
         console.log('This is ' + day + ' day not exist in the world');
         break;
+}
+//for loop
+let number = 1;
+for (number; number < 10; number++) {
+    console.log(number)
+}
+
+//do while loop
+do {
+    console.log(number)
+    number++;
+}while (number <= 5);
+
+
+//while loop
+while(number < 7) {
+    console.log(number)
+    number++;
 }
