@@ -56,3 +56,37 @@ while(number < 7) {
     console.log(number)
     number++;
 }
+
+//array
+let names = [
+    'mohammad',
+    'r',
+    'b',
+    'friday',
+    'Hulsink'
+]
+names.push('loep');
+for(i = 0; i < names.length; i++) {
+    console.log(names[i])
+}
+names.splice(2)
+console.log(names)
+
+//objects
+let info = {
+    fullName: 'Mohammad Roman Biswas',
+    age: 24,
+    city: 'pabna',
+    religion: 'islam',
+    country: 'bd'
+}
+
+console.log(info.country)
+
+//function
+function sum(a, b) {
+    let sum = a + b
+    return sum
+}
+
+console.log(sum(5, 5))
