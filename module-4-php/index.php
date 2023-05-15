@@ -83,3 +83,37 @@
 // echo '<pre>';
 // var_dump($discord['channels']);
 // echo '</pre>';
+
+//php loop
+
+$dummy_data_for_loop = [
+    "Ava",
+    "Noah",
+    "Liam",
+    "Emma",
+    "Olivia"
+];
+$dummy_data_for_loop2 = [1,2,3,4,5,6,7,8,9];
+
+// while loop in php
+$i = 1;
+while($i <= 3) {
+    echo 'while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+    $i++;
+}
+
+//do while loop in php
+do {
+    echo 'do while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+    $i++;
+} while ($i <= 10);
+
+//for loop in php
+for($i; $i <13; $i++) {
+    echo 'for loop: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+}
+
+//foreach loop in php
+foreach($dummy_data_for_loop as $keyId => $fel) {
+    echo 'foreach loop: array key-'.$keyId.' array value-'. $fel.PHP_EOL.'<br>';
+}
