@@ -86,34 +86,52 @@
 
 //php loop
 
-$dummy_data_for_loop = [
-    "Ava",
-    "Noah",
-    "Liam",
-    "Emma",
-    "Olivia"
-];
-$dummy_data_for_loop2 = [1,2,3,4,5,6,7,8,9];
+// $dummy_data_for_loop = [
+//     "Ava",
+//     "Noah",
+//     "Liam",
+//     "Emma",
+//     "Olivia"
+// ];
+// $dummy_data_for_loop2 = [1,2,3,4,5,6,7,8,9];
 
-// while loop in php
-$i = 1;
-while($i <= 3) {
-    echo 'while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
-    $i++;
+// // while loop in php
+// $i = 1;
+// while($i <= 3) {
+//     echo 'while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+//     $i++;
+// }
+
+// //do while loop in php
+// do {
+//     echo 'do while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+//     $i++;
+// } while ($i <= 10);
+
+// //for loop in php
+// for($i; $i <13; $i++) {
+//     echo 'for loop: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
+// }
+
+// //foreach loop in php
+// foreach($dummy_data_for_loop as $keyId => $fel) {
+//     echo 'foreach loop: array key-'.$keyId.' array value-'. $fel.PHP_EOL.'<br>';
+// }
+
+//php function
+function i() {
+    return 'hello <Br>';
 }
+echo i();
 
-//do while loop in php
-do {
-    echo 'do while: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
-    $i++;
-} while ($i <= 10);
+$data = 12;
+echo get_debug_type($data);
 
-//for loop in php
-for($i; $i <13; $i++) {
-    echo 'for loop: '.$i .' * '.$i. ' = '.$i*$i .PHP_EOL.'<br>';
-}
+$data2 = [1,2,3,4,5];
+echo '<pre>';
+var_dump(array_chunk($data2, 3));
+echo '</pre>';
 
-//foreach loop in php
-foreach($dummy_data_for_loop as $keyId => $fel) {
-    echo 'foreach loop: array key-'.$keyId.' array value-'. $fel.PHP_EOL.'<br>';
-}
+echo '<pre>';
+var_dump(sizeof($data2));
+echo '</pre>';
